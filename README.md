@@ -13,6 +13,12 @@ Scalar has 5 total microgames these are:
 | Guess weight | You are given 3 items and their repective weights. Match the item of the weight to win!
 | Inflate balloon | Inflate the balloon so it rises up|
 
+# I dont have windows, how do i try this?  
+Since this project uses no windows apis, you are able to build it from source as the libraries and includes are already included.  
+There is also a video demo in the releases for those that don't have a c compiler built into their OS
+
+# Tech stack  
+This project was fully written in raylib and C, meaning that it will run on most machines that can compile the code, and has a very low memory footprint too!
 
 # Building
 Should you wish to build it, there is a makefile provided using `make`
